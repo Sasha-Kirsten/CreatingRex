@@ -1,0 +1,1017 @@
+{
+    "HTML": {
+        "modules": {
+            "Level 1 - Getting Started with HTML": {
+                "Level 1: Intro to HTML": {
+                    "intro": "Hey there, future web wizard! \uD83E\uDDD9\u200D♂\uFE0F Welcome to Level 1: Intro to HTML. \uD83C\uDF89 This is where your magical coding journey begins. We're gonna dive into the basics of HTML (that's Hyper Text Markup Language for the uninitiated). \uD83E\uDD13\n\nGet ready to learn what HTML is all about, how to write the correct syntax, and who even invented this thing! By the end, you'll be writing your own HTML code like a pro. \uD83D\uDE80 So, tighten your seat belts and let's get this party started! \uD83D\uDC69\u200D\uD83D\uDCBB",
+                    "outro": "Whoa, look at you! \uD83C\uDF89 You've just nailed Level 1: Intro to HTML like a boss! \uD83D\uDC4F You now know what HTML is, how to write the correct syntax, and even who invented it! HTML is no longer a foreign language for you, right? \uD83C\uDF10\uD83D\uDD25\n\nRemember to take some time to practice what you've learned. Coding is just like any other skill – the more you practice, the better you get! \uD83C\uDFAF See you in Level 2: Intro to HTML Elements, where we're gonna make web pages come to life! \uD83D\uDE80",
+                    "questions": [
+                        {
+                            "question": "What does HTML stand for",
+                            "options": [
+                                "Hyper Transfer Markup Language",
+                                "Hyper Text Markup Language ",
+                                "Hyper Text Markdown Language",
+                                "Hyper Transfer Markdown Language"
+                            ],
+                            "correctAnswer": 1,
+                            "shortExplanation": "HTML stands for Hyper Text Markup Language. It is the standard language for creating web pages.",
+                            "longExplanation": "HTML stands for Hyper Text Markup Language. It's the backbone of any website or web application. HTML provides the basic structure to the web page, which is then enhanced and modified by CSS (Cascading Style Sheets) and JavaScript. HTML elements represent the building blocks of all websites and are delineated by tags, which are surrounded by angle brackets. Content is placed between these tags to represent different parts of the web page.",
+                            "alternateExplanation": "HTML, standing for Hyper Text Markup Language, is the foundational language for creating web pages. Consider a website as a house; HTML provides the blueprint or the skeletal structure of the house. For example, when you see paragraphs, images, links, and videos on a webpage, they are all structured and put in place using HTML tags."
+                        },
+                        {
+                            "question": "Who is the creator of HTML",
+                            "options": [
+                                "Bill Gates",
+                                "Mark Zuckerberg",
+                                "Tim Berners-Lee ",
+                                "Steve Jobs"
+                            ],
+                            "correctAnswer": 2,
+                            "shortExplanation": "HTML was created by Tim Berners-Lee, a British computer scientist who is also known as the father of the World Wide Web.",
+                            "longExplanation": "HTML was created by Tim Berners-Lee, a British computer scientist, in the late 1980s. At the time, Tim was working for CERN, the European physics research center, and he developed HTML as a way to share documents between different systems. Tim Berners-Lee is also known as the father of the World Wide Web, as he invented not just HTML, but also HTTP (HyperText Transfer Protocol) and URLs (Uniform Resource Locators).",
+                            "alternateExplanation": "HTML was conceived by Sir Tim Berners-Lee, a British computer scientist. His creation occurred during his time at CERN, a renowned physics research hub, in 1989. He aimed to create a system where documents could be viewed by any computer regardless of the hardware or software. This development marked the beginning of the World Wide Web."
+                        },
+                        {
+                            "question": "Which of the following is the correct syntax of HTML",
+                            "options": [
+                                "<tag> Content </>",
+                                "</tag> Content <tag>",
+                                "<tag> Content </tag> ",
+                                "</> Content <tag>"
+                            ],
+                            "correctAnswer": 2,
+                            "shortExplanation": "The correct syntax of HTML is <tag> Content </tag>. The tag indicates the type of the element, and the content is what is displayed on the webpage.",
+                            "longExplanation": "In HTML, elements are defined by the use of tags. The syntax for creating an HTML tag involves using angle brackets (< >) around a tag name. For most tags, an opening tag (e.g., <tag>) is followed by the content of the element, and then a closing tag (e.g., </tag>). The tag name in the closing tag is preceded by a forward slash. The opening tag may contain attributes that define or modify the behavior of the tag. The closing tag does not include these attributes.",
+                            "alternateExplanation": "HTML elements are primarily defined by their tags. These tags, enclosed in angle brackets, dictate what type of content will go in between them. A good example is the <p> tag. Anything written between <p> and </p> will be displayed as a paragraph on the web page."
+                        },
+                        {
+                            "question": "Is HTML case sensitive",
+                            "options": [
+                                "Yes",
+                                "No "
+                            ],
+                            "correctAnswer": 1,
+                            "shortExplanation": "HTML is not case sensitive. Tag names written in uppercase and lowercase are interpreted the same way.",
+                            "longExplanation": "HTML tags are not case-sensitive, meaning that the tag names can be written in either lowercase or uppercase letters and browsers will interpret them the same way. However, the World Wide Web Consortium (W3C), the organization responsible for developing web standards, recommends using lowercase letters for consistency and readability.",
+                            "alternateExplanation": "HTML tags are not case-sensitive. This means that writing a tag in uppercase, like <P>, will have the same effect as writing it in lowercase, like <p>. However, as per the convention suggested by W3C, it's recommended to write tags in lowercase for better readability and consistency in the code."
+                        },
+                        {
+                            "question": "What is the file extension used for HTML files",
+                            "options": [
+                                ".ht",
+                                ".html ",
+                                ".htm",
+                                "Both b and c "
+                            ],
+                            "correctAnswer": 3,
+                            "shortExplanation": "HTML files can have the extension .html or .htm.",
+                            "longExplanation": "HTML files can have the extension .html or .htm, and there's no difference between them. The .html extension became the standard, but .htm was used historically for compatibility with older operating systems, such as DOS, which only supported three-letter file extensions.",
+                            "alternateExplanation": "When saving an HTML file, you can use either .html or .htm as the file extension. Both work equally well, and browsers will render them the same way. The .htm extension was used when Windows systems only allowed three-letter extensions, but with modern systems, .html has become more standard."
+                        },
+                        {
+                            "question": "What's the purpose of the <!DOCTYPE html> declaration",
+                            "options": [
+                                "It's a standard HTML comment",
+                                "It's an HTML tag",
+                                "It links to the CSS file",
+                                "It tells the browser about the version of HTML "
+                            ],
+                            "correctAnswer": 3,
+                            "shortExplanation": "<!DOCTYPE html> is used to tell the web browser about the HTML version that the page is written in.",
+                            "longExplanation": "The <!DOCTYPE html> declaration is an instruction to the web browser about what version of the HTML standard the web page is written in. It's not an HTML tag per se; it's a document type declaration (DTD). For HTML5, the declaration is simply <!DOCTYPE html> and it should be the first line in every HTML document.",
+                            "alternateExplanation": "The <!DOCTYPE html> tag is a declaration, not an actual HTML tag. It tells the browser that the document is an HTML5 document, and it should be the first line of code in your HTML document. Without it, the browser may not render the page as expected."
+                        },
+                        {
+                            "question": "What is the root element of an HTML document",
+                            "options": [
+                                "head",
+                                "body",
+                                "html ",
+                                "div"
+                            ],
+                            "correctAnswer": 2,
+                            "shortExplanation": "The root element of an HTML document is <html>. All other tags are nested within this element.",
+                            "longExplanation": "The <html> tag is the root element of an HTML document. This is where the HTML code begins and ends. The <html> tag is meant to contain two child elements",
+                            "alternateExplanation": "In an HTML document, the <html> tag is the root element that encapsulates all the HTML code in the document. Think of it as the wrapper for all the other elements. This element contains two key sections"
+                        },
+                        {
+                            "question": "In HTML, comments are written inside which of the following tags",
+                            "options": [
+                                "<!-- comment --> ",
+                                "// comment",
+                                "/* comment */",
+                                "# comment"
+                            ],
+                            "correctAnswer": 0,
+                            "shortExplanation": "In HTML, comments are written inside <!-- comment --> tags.",
+                            "longExplanation": "HTML comments are useful for documenting your code and leaving notes for yourself or other developers. Comments are ignored by browsers and won't render anything on the webpage. You can add a comment in HTML by wrapping the comment text in <!-- and -->.",
+                            "alternateExplanation": "Comments in HTML are segments of the code that are ignored by the browser. They're encapsulated within <!-- --> tags and are primarily used to leave notes or explain your code to other developers. For instance, if you wanted to leave a note that a certain section of your HTML file begins here, you might use something like <!-- The main content begins here -->."
+                        },
+                        {
+                            "question": "What does an HTML tag consist of",
+                            "options": [
+                                "Tag name only",
+                                "Attributes only",
+                                "Both tag name and attributes ",
+                                "Comments only"
+                            ],
+                            "correctAnswer": 2,
+                            "shortExplanation": "An HTML tag consists of the tag name and attributes. The name defines the type of the tag, and attributes provide additional information.",
+                            "longExplanation": "HTML tags may contain attributes. These are extra bits of information that modify the behavior of the HTML tag or provide additional metadata about the element. Attributes usually come in name-value pairs and are placed within the opening tag. For example, in the image tag <img src=\"image.jpg\" alt=\"An image\">, src and alt are attributes, with image.jpg and An image being their respective values.",
+                            "alternateExplanation": "Attributes in HTML are used to provide additional information about an HTML element. They come in pairs \u2013 a name and a value, and they are always included in the opening tag. For example, in an image tag <img src=\"mypic.jpg\" alt=\"A beautiful sunset\">, src (source of the image file) and alt (alternative text for the image) are attributes that give extra information about the image."
+                        },
+                        {
+                            "question": "What is the correct HTML tag for inserting a line break",
+                            "options": [
+                                "<lb>",
+                                "<br> ",
+                                "<break>",
+                                "<line>"
+                            ],
+                            "correctAnswer": 1,
+                            "shortExplanation": "The <br> tag is used to insert a line break in HTML.",
+                            "longExplanation": "The <br> tag in HTML is used to insert a line break, which forces a new line in the text. It's an empty tag, meaning it does not need a closing tag. The <br> tag can be useful for structuring text, but excessive use of it is not recommended because it can lead to poor design and less control over the layout compared to CSS properties.",
+                            "alternateExplanation": "The <br> tag in HTML is used to create a line break in text. This tag is especially useful when you want to add a break in a poem or an address without starting a new paragraph. However, for creating space between larger blocks of content, it's advisable to use CSS rather than multiple line breaks."
+                        }
+                    ]},
+                    "Level 2: Intro to HTML Elements": {
+                        "intro": "Hello again, coding superstar! \uD83C\uDF1F You aced the basics and now it's time to level up! Welcome to Level 2: Intro to HTML Elements. \uD83D\uDE80\n\nIn this stage, we're going to explore how to use different elements in HTML to bring a webpage to life. Think text, images, links, and more! You'll get to know your headings from your footers and your divs from your spans. Excited much? I know I am! Let's make some magic happen. \uD83C\uDFA9\uD83D\uDC07",
+                        "outro": "Bravo! \uD83D\uDC4F You just completed Level 2: Intro to HTML Elements and, let me tell you, you're on fire! \uD83D\uDD25 You've explored the major HTML elements and how to use them in your web pages. From text and images to links and lists, you're ready to create more complex and interesting web pages! \uD83C\uDF10\n\nRemember, practice makes perfect! So don't forget to play around with these elements and see what you can create. \uD83D\uDE0E Ready for Level 3: Basics of HTML Attributes? Let's get this party started! \uD83C\uDF89",
+                        "questions": [
+                            {
+                                "question": " Which tag defines the title of the document",
+                                "options": [
+                                    "<title> ",
+                                    "<head>",
+                                    "<meta>",
+                                    "<h1>"
+                                ],
+                                "correctAnswer": 0,
+                                "shortExplanation": "The <title> tag is used to define the title of the document.",
+                                "longExplanation": "The <title> tag in HTML specifies the title of the webpage, which is displayed in the title bar or tab of a web browser. Search engines also use this title when listing the web page in their search results. The <title> tag is placed within the <head> section of the HTML document and it doesn't support any attributes. A well-defined title can improve search engine optimization (SEO) and user accessibility.",
+                                "alternateExplanation": "The <title> tag in HTML is used to define the title of the webpage. It's like the name of a book or a movie and is displayed on the tab in the web browser and used by search engines when showing your page in search results. An effectively written title can boost the visibility of your webpage in search results, improving SEO. It belongs within the <head> tag and doesn't accept any attributes."
+                            },
+                            {
+                                "question": " What is the correct HTML for creating a hyperlink",
+                                "options": [
+                                    "<link href=\"<http://www.example.com>\" />",
+                                    "<a url=\"<http://www.example.com>\" />",
+                                    "<a href=\"<http://www.example.com>\">Example</a> ",
+                                    "<href=\"<http://www.example.com>\">Example</href>"
+                                ],
+                                "correctAnswer": 2,
+                                "shortExplanation": "The correct HTML for creating a hyperlink is <a href=\"<http://www.example.com>\">Example</a>.",
+                                "longExplanation": "The <a> tag in HTML is used for creating hyperlinks, allowing users to navigate to different pages or content within the same page. The href attribute is used to specify the destination of the link, which could be a URL, a file, or an id within the same page. The text placed between the opening <a href=\"URL\"> and closing </a> tags is what users see and click on.",
+                                "alternateExplanation": "The <a> tag is essentially the navigation bridge in HTML that enables users to hop from one location to another. It stands for 'anchor' and is used to create hyperlinks. The href attribute is used to specify the target of the link, like the address on a navigation map. The text that goes between the opening and closing <a> tags is the visible part of the link that users click on."
+                            },
+                            {
+                                "question": " Which tag is used to define a large heading",
+                                "options": [
+                                    "<h6>",
+                                    "<h1> ",
+                                    "<large>",
+                                    "<head>"
+                                ],
+                                "correctAnswer": 1,
+                                "shortExplanation": "The <h1> tag is used to define a large heading in HTML.",
+                                "longExplanation": "The <h1> tag is used to define the largest (and often the top-level) heading in HTML. It's important for SEO as search engines pay special attention to the words used inside the <h1> tag. There are six levels of headings in HTML, <h1> to <h6>, with <h1> being the largest and <h6> being the smallest.",
+                                "alternateExplanation": "The <h1> tag in HTML is used to denote the most significant heading on a webpage, much like the headline of a newspaper article. It is heavily weighed by search engines for SEO. HTML provides six levels of headings, <h1> being the highest (and largest) and <h6> being the lowest (and smallest)."
+                            },
+                            {
+                                "question": " Which HTML tag is used to define an unordered (bulleted) list",
+                                "options": [
+                                    "<ul> ",
+                                    "<ol>",
+                                    "<li>",
+                                    "<u1>"
+                                ],
+                                "correctAnswer": 0,
+                                "shortExplanation": "The <ul> tag is used to define an unordered (bulleted) list in HTML.",
+                                "longExplanation": "The <ul> tag in HTML is used to define an unordered list, traditionally rendered as a bulleted list. Items in the list are marked with bullets by default. Each item in the list starts with the <li> tag (list item). You can nest multiple <li> elements within a single <ul> to define the list items.",
+                                "alternateExplanation": "The <ul> tag in HTML is used to create an unordered or bulleted list, akin to a shopping list. Each item on the list is enclosed within an <li> tag, representing a list item. Using <ul> is a way to visually structure similar pieces of information."
+                            },
+                            {
+                                "question": " What tag is used to create a dropdown selection list",
+                                "options": [
+                                    "<dropdown>",
+                                    "<list>",
+                                    "<select> ",
+                                    "<option>"
+                                ],
+                                "correctAnswer": 2,
+                                "shortExplanation": "The <select> tag is used to create a dropdown selection list in HTML.",
+                                "longExplanation": "The <select> tag is used to create a dropdown list in HTML. It's often used within a form, where the user selection becomes the input. Each option in the dropdown list is created with an <option> tag nested inside the <select> element. The value of the value attribute of the selected option will be sent as data when a form is submitted.",
+                                "alternateExplanation": "The <select> tag in HTML functions like a dropdown menu in a form. Each choice in the dropdown list is created using the <option> tag, nested inside the <select> tag. When a form is submitted, the value of the selected option is sent as part of the form data."
+                            },
+                            {
+                                "question": " Which tag is used to add an image in HTML",
+                                "options": [
+                                    "<pic>",
+                                    "<img> ",
+                                    "<image>",
+                                    "<graphics>"
+                                ],
+                                "correctAnswer": 1,
+                                "shortExplanation": "The <img> tag is used to add an image in HTML.",
+                                "longExplanation": "The <img> tag is used to embed images into an HTML document. The src attribute specifies the path to the image file, and the alt attribute provides an alternative description for the image if it cannot be displayed, which improves accessibility for visually impaired users or instances when the image fails to load.",
+                                "alternateExplanation": "The <img> tag is used to integrate images into an HTML page. The src attribute is used to specify the path to the image file, acting like a map leading to the image. The alt attribute is a textual description of the image, which enhances accessibility for visually impaired users or in situations when the image fails to load."
+                            },
+                            {
+                                "question": " What tag is used to create a table",
+                                "options": [
+                                    "<div>",
+                                    "<table> ",
+                                    "<grid>",
+                                    "<array>"
+                                ],
+                                "correctAnswer": 1,
+                                "shortExplanation": "The <table> tag is used to create a table in HTML.",
+                                "longExplanation": "The <table> tag is used to create tables in HTML. Tables are a great tool for displaying data in a grid format. The table is structured with the <tr> (table row) element, and within each row, you use the <td> (table data) tag to specify cell data. The <th> (table header) tag is used to add a header to the data columns.",
+                                "alternateExplanation": "The <table> tag in HTML creates a table much like the ones seen in spreadsheets. The table is organized into rows using the <tr> tag and each cell within the row is defined by the <td> tag. To add a header to the data columns, the <th> tag is used."
+                            },
+                            {
+                                "question": " Which tag is used to add a footer in HTML",
+                                "options": [
+                                    "<bottom>",
+                                    "<footer> ",
+                                    "<end>",
+                                    "<section>"
+                                ],
+                                "correctAnswer": 1,
+                                "shortExplanation": "The <footer> tag is used to add a footer in HTML.",
+                                "longExplanation": "The <footer> tag is used to specify a footer for a document or a section. A <footer> typically contains information about the author of the section, copyright information, links to terms of use, contact information, etc. You can have several <footer> elements in one document.",
+                                "alternateExplanation": "The <footer> tag is used to denote the footer of a document or a section, similar to the credits at the end of a movie. It usually contains information like the author of the section, copyright data, contact details, etc. You can have multiple footers in a single document, for example, one for each section."
+                            },
+                            {
+                                "question": " Which tag is used to create a form in HTML",
+                                "options": [
+                                    "<form> ",
+                                    "<input>",
+                                    "<fields>",
+                                    "<fill>"
+                                ],
+                                "correctAnswer": 0,
+                                "shortExplanation": "The <form> tag is used to create a form in HTML.",
+                                "longExplanation": "The <form> tag is used to create an HTML form for user input. Forms are an essential part of the web pages as they allow users to interact with the website, from searching data to submitting information. Inside a <form> element, you can use different types of form elements, such as <input>, <textarea>, <button>, etc.",
+                                "alternateExplanation": "The <form> tag in HTML is used to create a form for collecting user input. It's an important interactive feature on webpages, like a suggestion box or a survey. A variety of elements can be used within a form, such as <input>, <textarea>, <button>, etc., to capture different types of user input."
+                            },
+                            {
+                                "question": " What tag is used to add a paragraph in HTML",
+                                "options": [
+                                    "<text>",
+                                    "<p> ",
+                                    "<write>",
+                                    "<para>"
+                                ],
+                                "correctAnswer": 1,
+                                "shortExplanation": "The <p> tag is used to add a paragraph in HTML.",
+                                "longExplanation": "The <p> tag is used to represent a paragraph in HTML. It automatically adds some space (margin) before and after each paragraph. In HTML, a paragraph is defined as any amount of text separated by a blank line or another block-level element (like a heading or a list).",
+                                "alternateExplanation": "The <p> tag in HTML represents a paragraph. It's like the building block of content on a webpage and creates a block of text separated by space above and below it. The text between the opening <p> and closing </p> tags is considered one paragraph."
+                            }
+                        ]},
+                        "Level 3: Basics of HTML Attributes": {
+                            "intro": "Boom! \uD83D\uDCA5 Welcome to Level 3: Basics of HTML Attributes. You've been crushing the HTML game so far, and I couldn't be prouder! \uD83E\uDD73\n\nThis level is all about getting up close and personal with HTML attributes. These little guys add extra information to HTML elements and make your pages even cooler! \uD83C\uDFB8\uD83D\uDD25 So, ready to bring your A-game and learn how to code HTML attributes? Let's do this! \uD83D\uDCAA\uD83D\uDC68\u200D\uD83D\uDCBB",
+                            "outro": "Wow, you did it! \uD83E\uDD73 You've just rocked Level 3: Basics of HTML Attributes! Now, you're not just using HTML elements, you're enhancing them with attributes! That's a huge step in becoming a web coding whiz. \uD83C\uDF10✨\n\nKeep practicing with these new tools in your toolbox, and you'll be surprised at what you can create! Can't wait to see you at Level 4: Popular tags in HTML. Ready to dive even deeper? I know you are! \uD83D\uDE80",
+                            "questions": [
+                                {
+                                    "question": " What is the correct HTML for adding a background color",
+                                    "options": [
+                                        "<body bg=\"yellow\">",
+                                        "<body background=\"yellow\">",
+                                        "<body style=\"background-color:yellow;\"> ",
+                                        "<background>yellow</background>"
+                                    ],
+                                    "correctAnswer": 2,
+                                    "shortExplanation": "The correct HTML for adding a background color is <body style=\"background-color:yellow;\">.",
+                                    "longExplanation": "In HTML, the style attribute is used to add styles to an element, such as color, font, size, and more. Here, the style attribute is used within the <body> tag to change the background color of the whole page. The CSS property background-color is used to specify the color. Remember that adding styles directly to HTML elements is not considered best practice, as it leads to less modular and harder to maintain code. Usually, CSS should be kept separate from HTML.",
+                                    "alternateExplanation": "The style attribute in HTML is like the clothing and accessories of an element, setting its color, font, size, and more. For example, you can use the style attribute inside the <body> tag to set the background color of an entire page. However, directly dressing up HTML elements in styles is generally not advised, akin to keeping clothes and accessories scattered rather than neatly organized in a wardrobe. Typically, styles should be kept separately in CSS."
+                                },
+                                {
+                                    "question": " What attribute is used in HTML to specify an alternate text for an image, if the image cannot be displayed",
+                                    "options": [
+                                        "desc",
+                                        "name",
+                                        "source",
+                                        "alt "
+                                    ],
+                                    "correctAnswer": 3,
+                                    "shortExplanation": "The alt attribute is used in HTML to specify an alternate text for an image, if the image cannot be displayed.",
+                                    "longExplanation": "The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader). This attribute is particularly important for accessibility as screen readers read this text to describe the image to visually impaired users. It can also be helpful for SEO, as search engines can't view images but can read the alt text.",
+                                    "alternateExplanation": "The alt attribute serves as a contingency plan for an image. It provides a textual description of the image if, for some reason, it cannot be displayed, due to a slow connection, an error in the src attribute, or for users who rely on screen readers. It plays an essential role in accessibility, and SEO as search engines can't see images but can read the alt text, similar to having a written description of a painting for those who cannot see it."
+                                },
+                                {
+                                    "question": " What attribute is used to define form elements clearly in HTML",
+                                    "options": [
+                                        "id",
+                                        "value",
+                                        "name ",
+                                        "type"
+                                    ],
+                                    "correctAnswer": 2,
+                                    "shortExplanation": "The name attribute is used to define form elements clearly in HTML.",
+                                    "longExplanation": "The name attribute specifies the name for an <input> element in a form. The name attribute is used to reference form data after a form is submitted, or to reference the element in a JavaScript. It's crucial when sending form data to a server-side script, as it determines the key in the key/value pair that gets sent.",
+                                    "alternateExplanation": "The name attribute functions as the identifier for an <input> element in a form, just like having a unique name or ID number. This attribute is used when referencing form data after a form is submitted or when referring to the element in a JavaScript. It is like having a label on a data entry in a database when sending form data to a server-side script."
+                                },
+                                {
+                                    "question": " Which attribute is used to specify the charset in a meta tag",
+                                    "options": [
+                                        "http-equiv",
+                                        "content",
+                                        "charset ",
+                                        "name"
+                                    ],
+                                    "correctAnswer": 2,
+                                    "shortExplanation": "The charset attribute is used to specify the character encoding for the HTML document.",
+                                    "longExplanation": "The charset attribute specifies the character encoding for the HTML document. This attribute is used within the <meta> tag, typically placed within the <head> tag. Character encoding, such as UTF-8, is essential to ensure that all characters on the page are displayed correctly.",
+                                    "alternateExplanation": "The charset attribute is used to specify the character encoding of an HTML document, like a key to correctly display all characters on the page. It's placed within the <meta> tag inside the <head> tag. Character encoding, such as UTF-8, ensures that every character, be it a letter, number, or symbol, is displayed as intended."
+                                },
+                                {
+                                    "question": " The HTML 'lang' attribute is used to...",
+                                    "options": [
+                                        "Specify the language of the document content ",
+                                        "Specify the language of the browser",
+                                        "Link to language-specific stylesheets",
+                                        "Make the webpage multilingual"
+                                    ],
+                                    "correctAnswer": 0,
+                                    "shortExplanation": "The 'lang' attribute in HTML is used to specify the language of the document content.",
+                                    "longExplanation": "The lang attribute is used to declare the language of a web page or a portion of a web page. This is meant to assist search engines and browsers to display content correctly. It can be particularly useful for screen readers and translation tools. The value is usually a two-letter language code, like en for English or es for Spanish.",
+                                    "alternateExplanation": "The lang attribute acts as the language identifier of a webpage or a section of it, specifying whether the text is in English (en), Spanish (es), or any other language. It helps search engines and browsers display the content correctly and aids screen readers and translation tools, much like a 'Made in' label on a product."
+                                },
+                                {
+                                    "question": " What is the correct HTML for referring to an external JavaScript file called \"script.js\"",
+                                    "options": [
+                                        "<script src=\"script.js\"> ",
+                                        "<script href=\"script.js\">",
+                                        "<script link=\"script.js\">",
+                                        "<javascript src=\"script.js\">"
+                                    ],
+                                    "correctAnswer": 0,
+                                    "shortExplanation": "The correct HTML for referring to an external JavaScript file is <script src=\"script.js\">.",
+                                    "longExplanation": "The <script> tag is used to embed JavaScript within an HTML document. The src attribute is used to include external JavaScript files. The value of the src attribute should be the file name of the external JavaScript file. This method is useful to keep the HTML and JavaScript code separate, improving readability and maintainability.",
+                                    "alternateExplanation": "The <script> tag embeds JavaScript into an HTML document, and the src attribute is used to incorporate external JavaScript files, just as we include references or sources in an academic paper. Using src allows you to keep HTML and JavaScript separate, making the code easier to read and maintain."
+                                },
+                                {
+                                    "question": " The HTML 'href' attribute is used in which tag",
+                                    "options": [
+                                        "<html>",
+                                        "<body>",
+                                        "<img>",
+                                        "<a> "
+                                    ],
+                                    "correctAnswer": 3,
+                                    "shortExplanation": "The href attribute is used in the <a> tag to specify the destination URL of the link.",
+                                    "longExplanation": "The href attribute in the <a> tag is used to specify the destination URL of a hyperlink. The value of the href attribute is the URL you want to link to. This URL can be either absolute, pointing to any webpage on the Internet, or relative, pointing to a file in the same website.",
+                                    "alternateExplanation": "The href attribute in the <a> tag sets the destination address of a hyperlink, much like entering a location into a GPS. The value of href is the URL to which you want to link, and it can be either absolute (like a full postal address) or relative (like directions from your current location)."
+                                },
+                                {
+                                    "question": " The 'src' attribute in an HTML tag indicates...",
+                                    "options": [
+                                        "The source URL of an embedded content ",
+                                        "The styling of the element",
+                                        "The script to be used",
+                                        "The target of a hyperlink"
+                                    ],
+                                    "correctAnswer": 0,
+                                    "shortExplanation": "The 'src' attribute in an HTML tag indicates the source URL of an embedded content.",
+                                    "longExplanation": "The src attribute in HTML stands for source, and it specifies the URL of an embedded content. The src attribute is most often used in <img> tags (to specify the source file for an image), but it is also used in <script> (to link external JavaScript files), <iframe> (to embed other web content), and <audio> and <video> tags.",
+                                    "alternateExplanation": "The src attribute, short for source, is like a pointing finger, directing to the URL of an embedded content. Mostly used in <img> tags to specify the source file for an image, it also links external JavaScript files in <script>, embeds web content in <iframe>, and specifies media sources in <audio> and <video> tags."
+                                },
+                                {
+                                    "question": " Which attribute specifies the width of a table cell in HTML",
+                                    "options": [
+                                        "width ",
+                                        "size",
+                                        "length",
+                                        "dimension"
+                                    ],
+                                    "correctAnswer": 0,
+                                    "shortExplanation": "The width attribute in HTML specifies the width of a table cell.",
+                                    "longExplanation": "The width attribute specifies the width of an element like <table>, <img>, or <iframe>. For a table cell (<td> or <th>), this attribute will set the cell's width. However, usage of this attribute is not recommended in HTML5 as it is better to control layout using CSS, providing more flexibility and responsiveness.",
+                                    "alternateExplanation": "The width attribute in HTML sets the width of an element, whether it be a <table>, <img>, or <iframe>, similar to specifying the width of a picture frame. However, the width attribute is a bit outdated, like an old measurement tool, as in HTML5, it's recommended to control layout using CSS, which provides more flexibility and responsiveness."
+                                },
+                                {
+                                    "question": " What does the 'value' attribute specify in an HTML input element",
+                                    "options": [
+                                        "The maximum possible input",
+                                        "The type of input",
+                                        "The initial value of the input element ",
+                                        "The name of the input"
+                                    ],
+                                    "correctAnswer": 2,
+                                    "shortExplanation": "The value attribute in an HTML input element specifies the initial value of the input.",
+                                    "longExplanation": "The value attribute specifies the initial value for an <input> element in a form. This can be text in a text field or a pre-selected option for a checkbox or radio button. When the form is submitted, the current value of the input field is sent with the form data.",
+                                    "alternateExplanation": "The value attribute sets the starting value for an <input> element, like a default setting or a pre-filled field in a form. It can be a line of text in a text field or a pre-ticked box for a checkbox or radio button. When the form is submitted, the current state of the input field (the \"value\") is sent along with the form data."
+                                }
+                            ]},
+                            "Level 4: Popular tags in HTML": {
+                                "intro": "Guess who's back and ready to become an HTML maestro? \uD83C\uDFB9 That's right, it's you! Welcome to Level 4: Popular tags in HTML. \uD83C\uDF89\n\nIn this final level, we're diving into the deep end, exploring the popular and most used tags in HTML. From embedding audio files and videos to making forms and navigation bars, we've got lots to cover! Are you ready to take the HTML world by storm? Let's rock and roll! \uD83D\uDE80\uD83C\uDFB8",
+                                "outro": "Unbelievable! \uD83D\uDC4F You've done it! You've completed Level 4: Popular tags in HTML, and that's no small feat. From audio files to forms, checkboxes to navigation bars, you've mastered some of the most important and commonly used tags in HTML. You're now officially an HTML ninja! \uD83E\uDD77\uD83D\uDD25\n\nRemember, the journey of learning never ends. Keep practicing, keep exploring, and keep creating! The web is your oyster now! \uD83C\uDF10\uD83C\uDFC6 You're ready for your final assessment now, aren't you? Bring it on! \uD83D\uDCAA",
+                                "questions": [
+                                    {
+                                        "question": " Which tag is used to insert an audio file in HTML",
+                                        "options": [
+                                            "<audio> ",
+                                            "<sound>",
+                                            "<music>",
+                                            "<mp3>"
+                                        ],
+                                        "correctAnswer": 0,
+                                        "shortExplanation": "The <audio> tag is used to insert an audio file in HTML.",
+                                        "longExplanation": "The <audio> tag in HTML is used to embed sound content in documents. It can contain one or more sound sources, defined by nested <source> elements. It also has various attributes to customize the audio player, like controls for player controls, autoplay for automatic play, and loop for continuous play. Remember to always specify alternative content for browsers that do not support the <audio> tag.",
+                                        "alternateExplanation": "The <audio> tag in HTML behaves like a digital music player, enabling sound content to be embedded into documents. It can hold several sound sources, each described by nested <source> elements. Various attributes allow customization, such as controls for displaying player buttons, autoplay for starting playback automatically, and loop for repeat play. It's important to provide alternative content for browsers that don't play nice with the <audio> tag."
+                                    },
+                                    {
+                                        "question": " What is the correct HTML for making a checkbox",
+                                        "options": [
+                                            "<checkbox>",
+                                            "<input type=\"check\">",
+                                            "<check>",
+                                            "<input type=\"checkbox\"> "
+                                        ],
+                                        "correctAnswer": 3,
+                                        "shortExplanation": "The correct HTML for making a checkbox is <input type=\"checkbox\">.",
+                                        "longExplanation": "The <input> tag is used to create input fields in an HTML form. The type attribute defines the type of input field to display. If the type attribute is set to \"checkbox\", an input field will be displayed as a checkbox. Users can select zero or more options of a limited number of choices with checkboxes.",
+                                        "alternateExplanation": "The <input> tag creates input fields in an HTML form, similar to different types of boxes to fill in on a paper form. The type attribute determines what kind of input field appears. When set to \"checkbox\", it creates an option box that can be checked or unchecked. Users can select any combination of options from a set of checkboxes, like picking multiple toppings on a pizza."
+                                    },
+                                    {
+                                        "question": " What is the HTML tag under which one can write the JavaScript code",
+                                        "options": [
+                                            "<javascript>",
+                                            "<scripted>",
+                                            "<script> ",
+                                            "<js>"
+                                        ],
+                                        "correctAnswer": 2,
+                                        "shortExplanation": "The <script> tag is where you can write the JavaScript code in HTML.",
+                                        "longExplanation": "The <script> tag is used to embed or refer to JavaScript code within the HTML document. The JavaScript inside a <script> element can be either in-line (by enclosing the JavaScript code directly between <script> and </script>) or external (by using the src attribute to refer to an external JavaScript file).",
+                                        "alternateExplanation": "The <script> tag is the portal to incorporating JavaScript code into your HTML document. Like inviting a performer onto the stage, you can either write the JavaScript code directly between <script> and </script> (in-line) or you can refer to an external JavaScript file using the src attribute."
+                                    },
+                                    {
+                                        "question": " Which tag is used to embed content from another site (like a map)",
+                                        "options": [
+                                            "<embed> ",
+                                            "<insert>",
+                                            "<iframe>",
+                                            "Both a and c "
+                                        ],
+                                        "correctAnswer": 3,
+                                        "shortExplanation": "The <embed> and <iframe> tags are used to embed content from another site, such as a map.",
+                                        "longExplanation": "The <embed> and <iframe> tags in HTML are used to embed content from another site. The <embed> tag is a self-contained non-interactive element used for embedding external resources like a PDF or a Flash player. The <iframe> tag, on the other hand, creates an inline frame that embeds another HTML document within the current one, such as a Google Map or a YouTube video.",
+                                        "alternateExplanation": "The <embed> and <iframe> tags act as gateways to bring content from other websites into your own. The <embed> tag is a solitary, non-interactive element used for embedding standalone content like a PDF or a Flash player, much like putting a poster on a wall. The <iframe> tag, on the other hand, creates a \"window\" within your page to embed a live HTML document from another site, like viewing a location on Google Maps or watching a YouTube video without leaving your site."
+                                    },
+                                    {
+                                        "question": " Which HTML tag produces the biggest heading",
+                                        "options": [
+                                            "<h1> ",
+                                            "<h2>",
+                                            "<h3>",
+                                            "<h6>"
+                                        ],
+                                        "correctAnswer": 0,
+                                        "shortExplanation": "The <h1> tag produces the biggest heading in HTML.",
+                                        "longExplanation": "The <h1> tag in HTML is used to define the most important (or top-level) heading in the document. HTML offers six levels of headings, from <h1> to <h6>, <h1> being the largest and <h6> the smallest. It's also important for search engine optimization (SEO) as search engines pay special attention to the content inside the <h1> tag.",
+                                        "alternateExplanation": "The <h1> tag is the \"headline act\" of your HTML document, defining the main heading. HTML provides a hierarchy of headlines, ranging from <h1> to <h6>, akin to different levels of a building with <h1> being the top floor and <h6> being the ground level. The <h1> tag is also a magnet for search engines, as they pay special attention to its contents."
+                                    },
+                                    {
+                                        "question": " Which tag allows you to store machine-readable data within HTML documents",
+                                        "options": [
+                                            "<store>",
+                                            "<meta> ",
+                                            "<data>",
+                                            "<info>"
+                                        ],
+                                        "correctAnswer": 1,
+                                        "shortExplanation": "The <meta> tag allows you to store machine-readable data within HTML documents.",
+                                        "longExplanation": "The <meta> tag provides metadata about the HTML document. Metadata won't be displayed on the page but is machine-readable. It can be used by browsers (how to display content or reload a page), search engines (keywords), or other web services. Some common uses of <meta> tags include specifying the character set, page description, keywords, author, and viewport settings.",
+                                        "alternateExplanation": "The <meta> tag acts like a backstage crew member, providing metadata about the HTML document that won't be displayed on the page but is vital for machines to understand the document. It instructs browsers on how to display content, provides keywords for search engines, and aids other web services. <meta> tags often define the character set, page description, keywords, author, and viewport settings, working behind the scenes to improve the webpage's performance and discoverability."
+                                    },
+                                    {
+                                        "question": " Which tag is used to highlight text in HTML",
+                                        "options": [
+                                            "<highlight>",
+                                            "<mark> ",
+                                            "<highlighted>",
+                                            "<bold>"
+                                        ],
+                                        "correctAnswer": 1,
+                                        "shortExplanation": "The <mark> tag is used to highlight text in HTML.",
+                                        "longExplanation": "The <mark> tag in HTML is used to highlight parts of the text. It's often used to highlight a run of text due to its relevance to the user's current activity, like search results or indicating relevant sections of a document in response to a user's action.",
+                                        "alternateExplanation": "The <mark> tag is the highlighter pen of your HTML document, used to emphasize portions of the text. It's often used to draw attention to relevant sections of a document in response to a user's action, such as highlighting search terms within a page of results, or marking relevant parts of a text in a reading app."
+                                    },
+                                    {
+                                        "question": " What is the correct HTML tag for inserting a line break",
+                                        "options": [
+                                            "<br> ",
+                                            "<break>",
+                                            "<lb>",
+                                            "<line>"
+                                        ],
+                                        "correctAnswer": 0,
+                                        "shortExplanation": "The <br> tag is used for inserting a line break in HTML.",
+                                        "longExplanation": "The <br> tag in HTML is used for inserting a line break. Unlike most HTML elements, the <br> tag does not have a closing tag. It's useful when you want to break lines without starting a new paragraph, for example, in addresses or poems.",
+                                        "alternateExplanation": "The <br> tag works like a poet's line break in HTML, used to insert a line break without starting a new paragraph. The <br> tag is an oddball in the HTML family, as it doesn't require a closing tag. It comes in handy when you need to split lines within a paragraph, for example, when writing an address or a poem."
+                                    },
+                                    {
+                                        "question": " What tag is used to specify a section of a document in HTML",
+                                        "options": [
+                                            "<div>",
+                                            "<part>",
+                                            "<area>",
+                                            "<section> "
+                                        ],
+                                        "correctAnswer": 3,
+                                        "shortExplanation": "The <section> tag is used to specify a section of a document in HTML.",
+                                        "longExplanation": "The <section> tag in HTML5 represents a standalone section of a document, which could be a chapter, a tabbed content area, a set of tabs, a set of related content grouped together, etc. A <section> should be a distinct part of a document and usually includes a heading.",
+                                        "alternateExplanation": "The <section> tag in HTML5 acts like a book chapter divider, representing a distinct, standalone section within a document. This could be a chapter of a book, a tabbed content area, or a set of related content grouped together. A <section> typically includes a heading, much like the chapter title in a book."
+                                    },
+                                    {
+                                        "question": " What is the purpose of the nav tag in HTML",
+                                        "options": [
+                                            "To navigate the HTML document",
+                                            "To define navigation links ",
+                                            "To create a navigation bar",
+                                            "All of the above "
+                                        ],
+                                        "correctAnswer": 3,
+                                        "shortExplanation": "The <nav> tag in HTML is used to define navigation links. It can be used to create a navigation bar and navigate the HTML document.",
+                                        "longExplanation": "The <nav> tag in HTML5 is used to define a set of navigation links. It's not mandatory, but it's useful for accessibility as screen readers can use it to identify navigational sections of the web page. This tag is typically used to wrap major block-level navigation links, such as for a set of menu or footer links.",
+                                        "alternateExplanation": "The <nav> tag in HTML5 is like a compass for your webpage, defining a set of navigation links. Though not mandatory, it's a handy tool for screen readers, allowing them to identify the navigational sections of the webpage. It's typically used to wrap up major navigation links, like the chapters listed in a book's table of contents, or signposts on a website."
+                                    }
+                                ]
+                            }},
+            "Level 2 - Basics of Formatting": {
+                "HTML Headings & Paragraphs": {
+                    "content": "HTML headings and paragraphs are essential for structuring and presenting content on web pages. Headings create a hierarchical structure, while paragraphs group text content into coherent blocks. Understanding their significance and proper usage is vital for creating well-organized and visually appealing web pages.\n\nHTML Headings: Creating Hierarchy\n\nHeadings in HTML are represented by the <h1> to <h6> tags, with <h1> being the highest level of importance. Headings are used to introduce sections or topics, providing a clear hierarchy to the content. For example, a page about Benefits of Exercise might have the main title represented by <h1>Benefits of Exercise</h1>, followed by subheadings for different sections like <h2>Cardiovascular Benefits</h2> and <h2>Mental Health Benefits</h2>.\n\nUsing headings appropriately enhances both the readability and accessibility of web pages. Screen readers, which assist visually impaired users, rely on heading tags to navigate and comprehend the content's structure. Search engines also consider headings when indexing web pages, so proper usage can positively impact a page's search engine ranking.\n\nHTML Paragraphs: Organizing Text Content\n\nParagraphs in HTML are represented by the <p> tag and are used to group related sentences or text into blocks. Each paragraph stands as a distinct unit of content, making it easier for users to read and understand. Proper use of paragraphs improves the flow and organization of textual content on a web page.\n\nFor example, a page describing a travel destination might have separate paragraphs for information about the location's history, climate, attractions, and recommended activities. Breaking down content into paragraphs enhances readability and prevents overwhelming the reader with a wall of text.\n\nHTML paragraphs also provide semantic meaning to the content, which aids in SEO and accessibility. Search engines use the structure of paragraphs to better understand the relevance of the content. Moreover, screen readers can identify and present paragraphs to users, ensuring a more accessible experience for those with visual impairments.",
+                    "question": [
+                        {
+                            "question": "Question: What is the correct HTML tag for the largest heading?",
+                            "options": [
+                                "<h1>",
+                                "<h2>",
+                                "<h3>",
+                                "<h4>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "The <h1> tag is used to define the largest heading in HTML. It represents the main heading of a webpage and is typically used for the title or the most important heading on the page.",
+                            "example": "<h1>This is the Main Heading</h1>"
+                        },
+                        {
+                            "question": "Question: What is the correct HTML tag for the largest heading?",
+                            "options": [
+                                "<h1>",
+                                "<h2>",
+                                "<h3>",
+                                "<h4>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "The <h1> tag is used to define the largest heading in HTML. It represents the main heading of a webpage and is typically used for the title or the most important heading on the page.",
+                            "example": "<h1>This is the Main Heading</h1>"
+                        },
+                        {
+                            "question": "Question: Which HTML tag is used to create a paragraph?",
+                            "options": [
+                                "<p>",
+                                "<h1>",
+                                "<div>",
+                                "<span>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "The <p> tag is used to define a paragraph in HTML. It is a block-level element that represents a paragraph of text. It is commonly used to structure and format text content on a webpage.",
+                            "example": "<p>This is a paragraph of text.</p>"
+                        },
+                        {
+                            "question": "Question 1:",
+                            "options": [
+                                "<h1> to <h6>",
+                                "<p> to <h6>",
+                                "<h1> to <h5>",
+                                "<p> to <h5>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "HTML provides six levels of headings, from <h1> to <h6>. The <h1> tag represents the highest level of heading, while <h6> represents the lowest level of heading. Each heading tag has a different visual appearance, with <h1> being the largest and most prominent, and <h6> being the smallest.",
+                            "example": "<h1>This is a Heading 1</h1>\n<h2>This is a Heading 2</h2>\n<h3>This is a Heading 3</h3>\n<h4>This is a Heading 4</h4>\n<h5>This is a Heading 5</h5>\n<h6>This is a Heading 6</h6>"
+                        },
+                        {
+                            "question": "Question 1:",
+                            "options": [
+                                "<h1> to <h6>",
+                                "<p> to <h6>",
+                                "<h1> to <h5>",
+                                "<p> to <h5>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "HTML provides six levels of headings, from <h1> to <h6>. The <h1> tag represents the highest level of heading, while <h6> represents the lowest level of heading. Each heading tag has a different visual appearance, with <h1> being the largest and most prominent, and <h6> being the smallest.",
+                            "example": "<h1>This is a Heading 1</h1>\n<h2>This is a Heading 2</h2>\n<h3>This is a Heading 3</h3>\n<h4>This is a Heading 4</h4>\n<h5>This is a Heading 5</h5>\n<h6>This is a Heading 6</h6>"
+                        },
+                        {
+                            "question": "Question 2:",
+                            "options": [
+                                "<p>",
+                                "<paragraph>",
+                                "<text>",
+                                "<content>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "The <p> tag is used to define a paragraph in HTML. It is a block-level element that represents a section of text. By default, browsers add some space before and after a paragraph, making it visually distinct from surrounding content.",
+                            "example": "<p>This is a paragraph.</p>\n<p>This is another paragraph.</p>"
+                        }
+                    ]
+                },
+                "HTML Styles": {
+                    "content": "HTML styles, in combination with CSS (Cascading Style Sheets), allow web developers to control the presentation and appearance of HTML elements. CSS styles can modify text properties, add background colors, adjust margins and padding, and create visually engaging layouts. By using styles, developers can make their web pages aesthetically pleasing and align them with the desired design and branding.\n\nHTML Formatting: Text and Layout Adjustments",
+                    "question": [
+                        {
+                            "question": "Question: What is the correct way to include an external CSS file in an HTML document?",
+                            "options": [
+                                "<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">",
+                                "<style src=\"styles.css\">",
+                                "<link href=\"styles.css\" type=\"text/css\" rel=\"stylesheet\">",
+                                "<style type=\"text/css\" href=\"styles.css\">"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "Option A is the correct way to include an external CSS file in an HTML document. The <link> element is used to link an external resource, and the \"rel\" attribute specifies the relationship between the current document and the linked resource. The \"stylesheet\" value indicates that the linked resource is a CSS file. The \"type\" attribute specifies the MIME type of the linked resource, which in this case is \"text/css\". The \"href\" attribute specifies the URL of the external CSS file.",
+                            "example": "<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">"
+                        },
+                        {
+                            "question": "Question: What is the correct way to include an external CSS file in an HTML document?",
+                            "options": [
+                                "<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">",
+                                "<style src=\"styles.css\">",
+                                "<link href=\"styles.css\" type=\"text/css\" rel=\"stylesheet\">",
+                                "<style type=\"text/css\" href=\"styles.css\">"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "Option A is the correct way to include an external CSS file in an HTML document. The <link> element is used to link an external resource, and the \"rel\" attribute specifies the relationship between the current document and the linked resource. The \"stylesheet\" value indicates that the linked resource is a CSS file. The \"type\" attribute specifies the MIME type of the linked resource, which in this case is \"text/css\". The \"href\" attribute specifies the URL of the external CSS file.",
+                            "example": "<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">"
+                        },
+                        {
+                            "question": "Question: Which HTML tag is used to define a paragraph?",
+                            "options": [
+                                "<p>",
+                                "<div>",
+                                "<span>",
+                                "<h1>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "Option A is the correct answer. The <p> tag is used to define a paragraph in HTML. It is a block-level element that represents a paragraph of text. By default, browsers add some space before and after a paragraph.",
+                            "example": "<p>This is a paragraph.</p>"
+                        }
+                    ]
+                },
+                "HTML Formatting": {
+                    "content": "HTML formatting involves changing the appearance of text and controlling the layout of web pages. CSS styles can adjust text properties like font type, size, color, and spacing. For example, <h1 style=font-family: 'Arial'; font-size: 36px; color: #007bff;>Welcome to Our Website</h1> applies custom font, size, and color to the heading.\n\nFurthermore, CSS can control text alignment (left, center, right, or justified), text decoration (underline, overline, or line-through), and letter spacing. These formatting options allow developers to create visually engaging and readable text content.\n\nHTML formatting extends beyond text. By using CSS, developers can control the layout and positioning of elements on a web page. This includes adjusting margins, padding, borders, and positioning elements relative to each other. For instance, using CSS Flexbox or Grid layout, developers can create responsive and dynamic page structures that adapt to different screen sizes and devices.",
+                    "question": [
+                        {
+                            "question": "Question: What is the correct HTML tag for creating a hyperlink?",
+                            "options": [
+                                "<link>",
+                                "<a>",
+                                "<href>",
+                                "<hyperlink>"
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "The correct HTML tag for creating a hyperlink is the <a> tag. This tag is used to define a hyperlink, and it requires an href attribute to specify the destination URL.",
+                            "example": "<a href=\"https://www.example.com\">Click here</a>\nThis code will create a hyperlink that, when clicked, will take the user to the website \"https://www.example.com\"."
+                        },
+                        {
+                            "question": "Question: What is the correct HTML tag for creating a hyperlink?",
+                            "options": [
+                                "<link>",
+                                "<a>",
+                                "<href>",
+                                "<hyperlink>"
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "The correct HTML tag for creating a hyperlink is the <a> tag. This tag is used to define a hyperlink, and it requires an href attribute to specify the destination URL.",
+                            "example": "<a href=\"https://www.example.com\">Click here</a>\nThis code will create a hyperlink that, when clicked, will take the user to the website \"https://www.example.com\"."
+                        }
+                    ]
+                },
+                "HTML Colors": {
+                    "content": "Colors are integral to web design, as they evoke emotions, convey messages, and establish brand identity. HTML allows developers to apply colors to various elements, making web pages visually appealing and engaging.\n\nColors can be applied to text, backgrounds, borders, and other elements using CSS. Developers can use color names (e.g., red or blue), hexadecimal codes (e.g.,#ff0000 for red), RGB values (e.g., rgb(255,0,0) for red), or HSL values (e.g., hsl(0,100%,50%) for red) to specify colors.\n\nColor contrast is also crucial for accessibility, ensuring that text is readable against its background. High contrast between text and background colors is vital for users with visual impairments. Developers should consider color choices carefully to ensure that the content remains accessible to all users.\n\nIn conclusion, understanding HTML headings and paragraphs is crucial for creating well-structured and accessible content. Utilizing appropriate heading tags to create a hierarchical structure and grouping text content into paragraphs enhances readability and user experience.\n\nFurthermore, HTML styles, formatting, and colors allow developers to customize the appearance of web pages. By using CSS to adjust text properties, control layout, and apply colors, developers can create visually appealing and engaging websites. Proper usage of styles ensures that web pages are both aesthetically pleasing and accessible to a diverse audience.\n\nAs you continue your journey into HTML and web development, mastering these basics of formatting will lay a solid foundation for your future projects. Embrace the versatility of HTML elements and CSS styles, and you will be equipped to build web pages that captivate, inform, and delight visitors across the digital landscape.",
+                    "question": []
+                },
+                "Level Test 2": {
+                    "question": []
+                }
+            },
+            "Level 3 - Essential Elements": {
+                "HTML Links": {
+                    "content": "HTML links, represented by the <a> (anchor) tag, are one of the most critical elements in web development. Links allow users to navigate between different web pages, sections within the same page, or external resources. Understanding how to create and use HTML links is fundamental for building interconnected and user-friendly websites.\n\nTo create a link, use the <a> tag and add the destination URL as the value of the href attribute. For example: <a href=https://www.example.com>Visit Example Website</a>. When users click on the link, their browser will redirect them to the specified URL.\n\nTypes of HTML Links\n\nInternal Links: Internal links point to different sections within the same web page. By using the id attribute, you can target specific elements on the page. For example, <a href=#section2>Jump to Section 2</a> will scroll the user to the section with the id of section2 on the same page.\n\nExternal Links: External links direct users to other websites or resources hosted on different domains. For example, <a href=https://www.example.com>Visit Example Website</a> will take users to the example.com website.\n\nEmail Links: Email links open the user's default email client and pre-fill the recipient's email address. For example, <a href=mailto:contact@example.com>Contact Us</a> will open the email client with contact@example.com as the recipient.",
+                    "question": [
+                        {
+                            "question": "Question: What is the correct HTML tag for creating a hyperlink?",
+                            "options": [
+                                "<link>",
+                                "<a>",
+                                "<href>",
+                                "<hyperlink>"
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "The correct HTML tag for creating a hyperlink is the <a> tag. This tag is used to define a hyperlink, and it requires an href attribute to specify the URL of the destination page.",
+                            "example": "<a href=\"https://www.example.com\">Click here</a>\nThis code will create a hyperlink that, when clicked, will take the user to the URL specified in the href attribute."
+                        },
+                        {
+                            "question": "Question: What is the correct HTML tag for creating a hyperlink?",
+                            "options": [
+                                "<link>",
+                                "<a>",
+                                "<href>",
+                                "<hyperlink>"
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "The correct HTML tag for creating a hyperlink is the <a> tag. This tag is used to define a hyperlink, and it requires an href attribute to specify the URL of the destination page.",
+                            "example": "<a href=\"https://www.example.com\">Click here</a>\nThis code will create a hyperlink that, when clicked, will take the user to the URL specified in the href attribute."
+                        },
+                        {
+                            "question": "Question: How do you open a link in a new browser window or tab?",
+                            "options": [
+                                "target=\"_blank\"",
+                                "target=\"_new\"",
+                                "target=\"_window\"",
+                                "target=\"_tab\""
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "To open a link in a new browser window or tab, you need to use the target attribute with the value \"_blank\". This attribute tells the browser to open the linked page in a new window or tab.",
+                            "example": "<a href=\"https://www.example.com\" target=\"_blank\">Click here</a>\nThis code will create a hyperlink that, when clicked, will open the linked page in a new browser window or tab."
+                        },
+                        {
+                            "question": "Question: What is the correct HTML tag to create a hyperlink?",
+                            "options": [
+                                "<link>",
+                                "<a>",
+                                "<href>",
+                                "<hyperlink>"
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "The correct HTML tag to create a hyperlink is the <a> tag. This tag is used to define a hyperlink, and it requires an href attribute to specify the URL of the linked page or resource.",
+                            "example": "<a href=\"https://www.example.com\">Click here</a> will create a hyperlink that, when clicked, will take the user to the website \"https://www.example.com\"."
+                        },
+                        {
+                            "question": "Question: What is the correct HTML tag to create a hyperlink?",
+                            "options": [
+                                "<link>",
+                                "<a>",
+                                "<href>",
+                                "<hyperlink>"
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "The correct HTML tag to create a hyperlink is the <a> tag. This tag is used to define a hyperlink, and it requires an href attribute to specify the URL of the linked page or resource.",
+                            "example": "<a href=\"https://www.example.com\">Click here</a> will create a hyperlink that, when clicked, will take the user to the website \"https://www.example.com\"."
+                        },
+                        {
+                            "question": "Question: How can you open a link in a new browser window or tab?",
+                            "options": [
+                                "target=\"_blank\"",
+                                "target=\"_new\"",
+                                "target=\"_window\"",
+                                "target=\"_tab\""
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "To open a link in a new browser window or tab, you can use the target attribute with the value \"_blank\". This attribute tells the browser to open the linked page in a new window or tab.",
+                            "example": "<a href=\"https://www.example.com\" target=\"_blank\">Click here</a> will create a hyperlink that, when clicked, will open the website \"https://www.example.com\" in a new browser window or tab."
+                        }
+                    ]
+                },
+                "HTML Images": {
+                    "content": "Images are crucial for adding visual appeal and context to web pages. In HTML, images are represented by the <img> tag. To display an image, use the src attribute to specify the image file's location. For example: <img src=example.jpg alt=Example Image>.\n\nImage Attributes\n\nsrc: Specifies the image file's URL or location.\nalt: Provides alternative text for the image, displayed if the image cannot be loaded or for accessibility purposes. Always include meaningful alternative text.\nwidth and height: Adjust the image's dimensions. It is essential to maintain the image's aspect ratio to avoid distortion.\ntitle: Displays a tooltip when users hover over the image.",
+                    "question": [
+                        {
+                            "question": "Question: What is the correct HTML tag for inserting an image?",
+                            "options": [
+                                "<img>",
+                                "<image>",
+                                "<picture>",
+                                "<src>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "The correct HTML tag for inserting an image is <img>. This tag is a self-closing tag, meaning it does not require a closing tag. It is used to embed an image in an HTML document.",
+                            "example": "<img src=\"image.jpg\" alt=\"Example Image\">"
+                        },
+                        {
+                            "question": "Question: What is the correct HTML tag for inserting an image?",
+                            "options": [
+                                "<img>",
+                                "<image>",
+                                "<picture>",
+                                "<src>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "The correct HTML tag for inserting an image is <img>. This tag is a self-closing tag, meaning it does not require a closing tag. It is used to embed an image in an HTML document.",
+                            "example": "<img src=\"image.jpg\" alt=\"Example Image\">"
+                        },
+                        {
+                            "question": "Question: What is the purpose of the \"alt\" attribute in an HTML image tag?",
+                            "options": [
+                                "It specifies the alignment of the image.",
+                                "It defines the alternative text for the image.",
+                                "It sets the width and height of the image.",
+                                "It specifies the source URL of the image."
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "The \"alt\" attribute in an HTML image tag is used to provide alternative text for the image. This text is displayed if the image fails to load or if the user is using a screen reader. It is important for accessibility and SEO purposes.",
+                            "example": "<img src=\"image.jpg\" alt=\"This is an example image\">"
+                        },
+                        {
+                            "question": "Question 1: What is the correct HTML tag for inserting an image?",
+                            "options": [
+                                "<img>",
+                                "<image>",
+                                "<picture>",
+                                "<src>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "The correct HTML tag for inserting an image is <img>. This tag is a self-closing tag, meaning it does not require a closing tag. It is used to embed an image in an HTML document.",
+                            "example": "<img src=\"image.jpg\" alt=\"Example Image\">"
+                        },
+                        {
+                            "question": "Question 1: What is the correct HTML tag for inserting an image?",
+                            "options": [
+                                "<img>",
+                                "<image>",
+                                "<picture>",
+                                "<src>"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "The correct HTML tag for inserting an image is <img>. This tag is a self-closing tag, meaning it does not require a closing tag. It is used to embed an image in an HTML document.",
+                            "example": "<img src=\"image.jpg\" alt=\"Example Image\">"
+                        },
+                        {
+                            "question": "Question 2: What is the purpose of the \"alt\" attribute in an HTML image tag?",
+                            "options": [
+                                "It specifies the URL of the image.",
+                                "It sets the alignment of the image.",
+                                "It defines the alternative text for the image.",
+                                "It adjusts the size of the image."
+                            ],
+                            "correctAnswer": 2,
+                            "explanation": "The \"alt\" attribute in an HTML image tag is used to provide alternative text for the image. This text is displayed if the image fails to load or if the user is using a screen reader. It is important for accessibility and SEO purposes.",
+                            "example": "<img src=\"image.jpg\" alt=\"This is an example image\">"
+                        }
+                    ]
+                },
+                "HTML Tables": {
+                    "content": "HTML tables are used to present data in rows and columns, making them a valuable tool for organizing information. Tables are represented by the <table> tag, and their structure consists of rows (<tr>), table headers (<th>), and table data cells (<td>). For example:\n\n<table>\n <tr>\n <th>Name</th>\n <th>Age</th>\n </tr>\n <tr>\n <td>John</td>\n <td>30</td>\n </tr>\n <tr>\n <td>Jane</td>\n <td>25</td>\n </tr>\n</table>\n\nTable Attributes\n\nborder: Sets the border thickness of the table. Use CSS for styling instead of this attribute.\nalign: Aligns the table horizontally. Use CSS for alignment instead.\ncellspacing: Defines the space between cells.\ncellpadding: Defines the space between cell content and cell borders.",
+                    "question": []
+                },
+                "HTML Lists": {
+                    "content": "HTML lists are used to present information in a structured and organized manner. There are three types of lists in HTML:\n\nUnordered Lists (<ul>): Represented by bullet points, unordered lists are used for items with no specific order.\n\n<ul>\n <li>Item 1</li>\n <li>Item 2</li>\n <li>Item 3</li>\n</ul>\n\nOrdered Lists (<ol>): Represented by numbers or letters, ordered lists are used for items with a specific order.\n\n<ol>\n <li>First item</li>\n <li>Second item</li>\n <li>Third item</li>\n</ol>\n\nDescription Lists (<dl>): Used to create lists with term-description pairs.\n\n<dl>\n <dt>Term 1</dt>\n <dd>Description 1</dd>\n <dt>Term 2</dt>\n <dd>Description 2</dd>\n</dl>",
+                    "question": {}
+                },
+                "HTML Forms": {
+                    "content": "HTML forms allow users to submit data to a server for processing. Forms are essential for various interactive features on websites, such as login pages, search bars, feedback forms, and registration pages. The <form> tag is used to create a form, and form elements such as text inputs, checkboxes, radio buttons, and more are used to gather user input.\n\n<form action=/submit-form method=post>\n <label for=name>Name:</label>\n <input type=text id=name name=name required>\n\n <label for=email>Email:</label>\n <input type=email id=email name=email required>\n\n <label for message>Message:</label>\n <textarea id=message name=message required></textarea>\n\n <button type=submit>Submit</button>\n</form>\n\nForm Attributes\n\naction: Specifies the URL to which the form data will be sent when submitted.\nmethod: Defines the HTTP method to be used when submitting the form",
+                    "question": []
+                },
+                "Level Test 3": []
+            },
+            "Level 4 - Advanced Elements & Best Practices": {
+                "HTML IDs & Classes": {
+                    "content": "HTML IDs and classes are crucial for advanced web development, providing efficient ways to target and style specific elements. IDs and classes act as identifiers that allow developers to apply CSS styles and JavaScript functionality to targeted elements. Understanding how to use IDs and classes effectively is essential for maintaining clean and manageable code.\n\nHTML IDs: Unique Identifiers\n\nHTML IDs are used to uniquely identify individual elements on a web page. An ID should be unique within the entire HTML document, meaning no two elements should have the same ID. IDs are typically used for elements that require distinct styling or specific functionality.\n\nTo assign an ID to an element, use the id attribute. For example: <p id=unique-paragraph>This is a unique paragraph.</p>. JavaScript can reference elements by their IDs to perform specific actions, such as modifying content or responding to user interactions.\n\nHTML Classes: Grouping Elements\n\nHTML classes, unlike IDs, are not required to be unique and can be applied to multiple elements. Classes are used to group elements that share similar styles or behavior. By applying the same class to multiple elements, developers can apply CSS styles to those elements collectively.\n\nTo add a class to an element, use the class attribute. For example: <ul class=list-items>...</ul>. CSS styles targeting the class list-items will apply to all elements with that class, providing consistent styling for the list.\n\nUsing IDs and classes efficiently leads to cleaner and more maintainable code. IDs are best suited for elements that require individual handling, such as unique JavaScript interactions. On the other hand, classes are used to style and group elements with shared characteristics, reducing redundancy in the code.",
+                    "question": [
+                        {
+                            "question": "Question 1: What is the purpose of HTML IDs?",
+                            "options": [
+                                "To group multiple elements together",
+                                "To apply styles to multiple elements",
+                                "To uniquely identify an element on a page",
+                                "To create hyperlinks between pages"
+                            ],
+                            "correctAnswer": 2,
+                            "explanation": "HTML IDs are used to uniquely identify an element on a page. Each ID must be unique within the HTML document, allowing developers to target specific elements using CSS or JavaScript.",
+                            "example": "```html\n<div id=\"header\">\n  <h1>Welcome to my website</h1>\n</div>\n```\nIn this example, the ID \"header\" is used to uniquely identify the `<div>` element. It can be targeted in CSS or JavaScript using the `#header` selector."
+                        },
+                        {
+                            "question": "Question 1: What is the purpose of HTML IDs?",
+                            "options": [
+                                "To group multiple elements together",
+                                "To apply styles to multiple elements",
+                                "To uniquely identify an element on a page",
+                                "To create hyperlinks between pages"
+                            ],
+                            "correctAnswer": 2,
+                            "explanation": "HTML IDs are used to uniquely identify an element on a page. Each ID must be unique within the HTML document, allowing developers to target specific elements using CSS or JavaScript.",
+                            "example": "```html\n<div id=\"header\">\n  <h1>Welcome to my website</h1>\n</div>\n```\nIn this example, the ID \"header\" is used to uniquely identify the `<div>` element. It can be targeted in CSS or JavaScript using the `#header` selector."
+                        },
+                        {
+                            "question": "Question 2: What is the purpose of HTML classes?",
+                            "options": [
+                                "To group multiple elements together",
+                                "To apply styles to multiple elements",
+                                "To uniquely identify an element on a page",
+                                "To create hyperlinks between pages"
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "HTML classes are used to group multiple elements together so that they can be styled or targeted as a group. Unlike IDs, classes can be applied to multiple elements within the same HTML document.",
+                            "example": "```html\n<p class=\"highlight\">This paragraph has a special style applied.</p>\n<p>This paragraph does not have any special style.</p>\n<p class=\"highlight\">This paragraph also has the same special style applied.</p>\n```\nIn this example, the class \"highlight\" is applied to two `<p>` elements. CSS can be used to target all elements with the \"highlight\" class and apply a specific style to them."
+                        },
+                        {
+                            "question": "Question 2: How are HTML classes different from HTML IDs?",
+                            "options": [
+                                "Classes can be used multiple times, IDs cannot",
+                                "Classes are used for styling, IDs are used for functionality",
+                                "Classes are unique, IDs can be used multiple times",
+                                "Classes are used for JavaScript, IDs are used for CSS"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "HTML classes are used to group elements together and can be used multiple times within a single HTML document. This allows developers to apply the same styles or functionality to multiple elements. On the other hand, HTML IDs must be unique within the entire HTML document and can only be used once.",
+                            "example": "```html\n<p class=\"highlight\">This is a highlighted paragraph.</p>\n<p class=\"highlight\">This is another highlighted paragraph.</p>\n```\nIn this example, the class \"highlight\" is applied to both `<p>` elements. This allows the same styles to be applied to both paragraphs without the need to repeat the styles for each individual element."
+                        },
+                        {
+                            "question": "Question 1:",
+                            "options": [
+                                "HyperText Markup Language",
+                                "HyperText Modeling Language",
+                                "HyperText Manipulation Language",
+                                "HyperText Management Language"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "HTML stands for HyperText Markup Language, which is the standard markup language used for creating web pages. It is used to structure the content on a webpage and define its layout and appearance.",
+                            "example": "<html>...</html>"
+                        },
+                        {
+                            "question": "Question 1:",
+                            "options": [
+                                "HyperText Markup Language",
+                                "HyperText Modeling Language",
+                                "HyperText Manipulation Language",
+                                "HyperText Management Language"
+                            ],
+                            "correctAnswer": 0,
+                            "explanation": "HTML stands for HyperText Markup Language, which is the standard markup language used for creating web pages. It is used to structure the content on a webpage and define its layout and appearance.",
+                            "example": "<html>...</html>"
+                        },
+                        {
+                            "question": "Question 2:",
+                            "options": [
+                                "IDs are used to style multiple elements with the same identifier.",
+                                "Classes are used to style multiple elements with the same identifier.",
+                                "IDs are unique identifiers used to style a single element.",
+                                "Classes are unique identifiers used to style a single element."
+                            ],
+                            "correctAnswer": 2,
+                            "explanation": "IDs in HTML are used to uniquely identify a specific element on a webpage. Each ID must be unique within the HTML document. IDs are commonly used to apply specific styles or to target elements with JavaScript.",
+                            "example": "<div id=\"header\">...</div>"
+                        },
+                        {
+                            "question": "Question 1: What is the purpose of using IDs in HTML?",
+                            "options": [
+                                "To group elements together",
+                                "To apply styles to multiple elements",
+                                "To uniquely identify an element",
+                                "To create links between web pages"
+                            ],
+                            "correctAnswer": 2,
+                            "explanation": "IDs in HTML are used to uniquely identify an element on a web page. Each ID should be unique within the HTML document, allowing developers to target specific elements for styling or manipulation using CSS or JavaScript.",
+                            "example": "```html\n<div id=\"header\">\n  <h1>Welcome to my website</h1>\n</div>\n```\nIn this example, the ID \"header\" is used to uniquely identify the `<div>` element. This ID can be used to apply specific styles or perform actions on this element using CSS or JavaScript."
+                        },
+                        {
+                            "question": "Question 1: What is the purpose of using IDs in HTML?",
+                            "options": [
+                                "To group elements together",
+                                "To apply styles to multiple elements",
+                                "To uniquely identify an element",
+                                "To create links between web pages"
+                            ],
+                            "correctAnswer": 2,
+                            "explanation": "IDs in HTML are used to uniquely identify an element on a web page. Each ID should be unique within the HTML document, allowing developers to target specific elements for styling or manipulation using CSS or JavaScript.",
+                            "example": "```html\n<div id=\"header\">\n  <h1>Welcome to my website</h1>\n</div>\n```\nIn this example, the ID \"header\" is used to uniquely identify the `<div>` element. This ID can be used to apply specific styles or perform actions on this element using CSS or JavaScript."
+                        },
+                        {
+                            "question": "Question 2: How are classes used in HTML?",
+                            "options": [
+                                "To group elements together",
+                                "To apply styles to multiple elements",
+                                "To uniquely identify an element",
+                                "To create links between web pages"
+                            ],
+                            "correctAnswer": 1,
+                            "explanation": "Classes in HTML are used to group multiple elements together and apply styles or behavior to them collectively. Unlike IDs, classes can be applied to multiple elements within the same HTML document.",
+                            "example": "```html\n<p class=\"highlight\">This is a highlighted paragraph.</p>\n<p>This is a regular paragraph.</p>\n<p class=\"highlight\">This is another highlighted paragraph.</p>\n```\nIn this example, the class \"highlight\" is applied to multiple `<p>` elements. This allows CSS styles to be applied to all elements with the \"highlight\" class, giving them a consistent appearance."
+                        }
+                    ]
+                },
+                "HTML Media": {
+                    "content": "HTML supports various media elements that enrich web content, providing multimedia experiences for users. Media elements allow developers to embed images, videos, audio, and other media formats directly into web pages.\n\nEmbedding Images: <img>\n\nImages are an integral part of web design, offering visual context and engagement. The img tag is used to embed images on a web page, and it requires the src attribute, which specifies the image file's location. Additionally, the alt attribute should be included to provide alternative text for screen readers and situations where the image cannot be displayed.\n\nEmbedding Videos: <video>\n\nHTML5 introduced the video element, allowing developers to embed videos directly into web pages. The video tag supports various video formats, such as MP4, WebM, and Ogg. To embed a video, include the src attribute with the video file's URL and provide fallback content within the opening and closing tags. For example:\n\n<video controls>\n <source src=example.mp4 type=video/mp4>\n <source src=example.webm type=video/webm>\n Your browser does not support the video tag.\n</video>\n\nEmbedding Audio: <audio>\n\nSimilar to video, HTML5 introduced the audio element for embedding audio content. The audio tag supports audio formats like MP3, WAV, and Ogg. Include the src attribute with the audio file's URL and provide fallback content within the opening and closing tags. For example:\n\n<audio controls>\n <source src=example.mp3 type=audio/mpeg>\n <source src=example.wav type=audio/wav>\n Your browser does not support the audio tag.\n</audio>",
+                    "question": []
+                },
+                "HTML SVG": {
+                    "content": "SVG, which stands for Scalable Vector Graphics, is an XML-based format used to create vector graphics for the web. Unlike raster images, SVG graphics are resolution-independent, ensuring they look crisp and clear at any size or resolution.\n\nTo embed SVG graphics in HTML, use the svg element and include SVG code within the opening and closing tags. SVG graphics can be styled and manipulated using CSS and JavaScript, making them versatile for interactive web design.",
+                    "question": []
+                },
+                "HTML Layout": {
+                    "content": "HTML layouts define the structure and organization of web pages, determining how elements are positioned and displayed. Several layout techniques are used to create responsive and visually appealing web pages.\n\nHTML Tables for Layout (Avoided)\n\nIn the past, developers used HTML tables to create complex layouts, but this practice is now considered outdated and discouraged. Tables were originally intended for tabular data, not for general page layout. Instead, developers should use modern layout methods such as CSS Flexbox and CSS Grid.\n\nCSS Flexbox: Flexible Layouts\n\nCSS Flexbox is a one-dimensional layout model that allows elements to be flexibly arranged along a single axis (either horizontally or vertically). Flexbox simplifies alignment, distribution, and ordering of elements within their container. It is ideal for creating responsive and dynamic layouts.\n\nCSS Grid: Grid-Based Layouts\n\nCSS Grid is a two-dimensional layout model that divides the page into columns and rows, forming a grid. Developers can easily position elements in specific",
+                    "question": []
+                },
+                "HTML Dos and Don\ts": {
+                    "content": "Do's:Use Semantic Elements: Use semantic elements (e.g., <header>, <nav>, <main>, <section>, <article>, <footer>) to add meaning and structure to your content, aiding both users and search engines.Provide Alt Text: Always provide descriptive alternative text using the alt attribute for images. This ensures that users with visual impairments can understand the content.Use External CSS: Avoid inline CSS styles. Instead, use external CSS files to maintain clean, maintainable code and separate content from presentation.Responsive Design: Embrace responsive design principles to ensure that your web pages adapt and display correctly on various devices and screen sizes.Don'ts:Avoid Deprecated Elements: Avoid using deprecated HTML elements (e.g., <center>, <font>, <strike>), as they are no longer part of modern web standards.Don't Overuse Tables: Avoid using tables for layout purposes. Instead, use CSS for layout and positioning, such as Flexbox and Grid.Don't Use Excessive Animation: While animation can be engaging, excessive or distracting animations can negatively impact the user experience. Use animations judiciously.Avoid Repetitive Attributes: Refrain from adding repetitive or unnecessary attributes to HTML elements. Keep your code clean and concise.",
+                    "question": []
+                },
+                "Level Test 4": {
+                    "question": []
+                }
+            }
+        }
+    }
+}

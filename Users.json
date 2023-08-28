@@ -1,0 +1,155 @@
+{
+    "users": [
+        {
+            "UserID": "1",
+            "Name": "Alice",
+            "Hobby": "Photography",
+            "Subjects": [
+                {
+                    "Name": "HTML",
+                    "Modules": [
+                        {
+                            "Name": "Level 1 - Getting Started with HTML",
+                            "SubModules": [
+                                {
+                                    "Name": "Level 1: Intro to HTML",
+                                    "Score": 10
+                                }
+                            ],
+                            "LastSubModule": "Level 1: Intro to HTML",
+                            "Score": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "UserID": "2",
+            "Name": "Bob",
+            "Hobby": "Fishing",
+            "Subjects": [
+                {
+                    "Name": "HTML",
+                    "Modules": [
+                        {
+                            "Name": "Level 1 - Getting Started with HTML",
+                            "SubModules": [
+                                {
+                                    "Name": "Level 1: Intro to HTML",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 2: Intro to HTML Elements",
+                                    "Score": 10
+                                }
+                            ],
+                            "LastSubModule": "Level 2: Intro to HTML Elements",
+                            "Score": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "UserID": "3",
+            "Name": "Charlie",
+            "Hobby": "Gaming",
+            "Subjects": [
+                {
+                    "Name": "HTML",
+                    "Modules": [
+                        {
+                            "Name": "Level 1 - Getting Started with HTML",
+                            "SubModules": [
+                                {
+                                    "Name": "Level 1: Intro to HTML",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 2: Intro to HTML Elements",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 3: Basics of HTML Attributes",
+                                    "Score": 10
+                                }
+                            ],
+                            "LastSubModule": "Level 3: Basics of HTML Attributes",
+                            "Score": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "UserID": "4",
+            "Name": "Diana",
+            "Hobby": "Cooking",
+            "Subjects": [
+                {
+                    "Name": "HTML",
+                    "Modules": [
+                        {
+                            "Name": "Level 1 - Getting Started with HTML",
+                            "SubModules": [
+                                {
+                                    "Name": "Level 1: Intro to HTML",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 2: Intro to HTML Elements",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 3: Basics of HTML Attributes",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 4: Popular tags in HTML",
+                                    "Score": 10
+                                }
+                            ],
+                            "LastSubModule": "Level 4: Popular tags in HTML",
+                            "Score": 40
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "UserID": "5",
+            "Name": "Diana",
+            "Hobby": "Cooking",
+            "Subjects": [
+                {
+                    "Name": "Python",
+                    "Modules": [
+                        {
+                            "Name": "Level 1 - Getting Started with HTML",
+                            "SubModules": [
+                                {
+                                    "Name": "Level 1: Intro to HTML",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 2: Intro to HTML Elements",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 3: Basics of HTML Attributes",
+                                    "Score": 10
+                                },
+                                {
+                                    "Name": "Level 4: Popular tags in HTML",
+                                    "Score": 10
+                                }
+                            ],
+                            "LastSubModule": "Level 4: Popular tags in HTML",
+                            "Score": 40
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
