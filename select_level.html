@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Level</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Level - {{ topic }}</h1>
+        <p>Please choose a level to start:</p>
+        <ul>
+            {% for level in levels %}
+            <li><a href="{{ url_for('quiz', topic=topic, level=level, question_index=0) }}">{{ level }}</a></li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('index') }}" class="home-link">Go back to home</a>
+    </div>
+</body>
+</html>

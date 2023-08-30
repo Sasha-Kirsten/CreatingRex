@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+        <p>Your answer is {% if is_correct %}correct{% else %}incorrect{% endif %}.</p>
+        <p>Correct answer: {{ question.options[question.correctAnswer] }}</p>
+        <a href="#" class="explanation-button">Show Explanation</a>
+        <div class="explanation">
+            <p>{{ question.explanation }}</p>
+            <button class="more-explanation-button">More Explanation</button>
+            <div class="more-explanation">
+                <p>{{ question.moreExplanation }}</p>
+            </div>
+        </div>
+<!--        <a href="{{ url_for('quiz', topic=topic, level=level, question_index=question_index + 1) }}" class="next-question-link">Next Question</a>-->
+        <a href="{{ url_for('quiz', topic=topic, level=level, question_index=question_index + 1) }}" class="next-question-link"
+   data-topic="{{ topic }}" data-level="{{ level }}" data-question-index="{{ question_index + 1 }}">Next Question</a>
+
+        <p>Question {{ question_index + 1 }} of {{ number_of_questions }}</p>
+    </div>
+
+<!--        <a href="{{ url_for('quiz', topic=topic, level=level, question_index=question_index + 1) }}" class="next-question-link">Next Question</a>-->
+
+<!--{% if question_index + 1 < questions|length %}-->
+<!--        {{question_index}}-->
+<!--    <a href="{{ url_for('quiz', topic=topic, level=level, question_index=question_index+1) }}" class="next-question-link">Next Question</a>-->
+<!--{% else %}-->
+<!--    <p>You have completed the quiz!</p>-->
+<!--{% endif %}-->
+    </div>
+ <script>
+   const explanationButton = document.querySelector('.explanation-button');
+    const moreExplanationButton = document.querySelector('.more-explanation-button');
+    const nextQuestionLink = document.querySelector('.next-question-link');
+    const explanationSection = document.querySelector('.explanation');
+    const moreExplanationSection = document.querySelector('.more-explanation');
+
+    explanationButton.addEventListener('click', () => {
+        explanationSection.style.display = (explanationSection.style.display === 'block') ? 'none' : 'block';;
+    });
+
+    moreExplanationButton.addEventListener('click', () => {
+        moreExplanationSection.style.display = (moreExplanationSection.style.display === 'block') ? 'none' : 'block';;
+    });
+
+    nextQuestionLink.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent the default link behavior
+        const currentURL = window.location.href;
+        const baseURL = currentURL.substring(0, currentURL.lastIndexOf('/')); // Get URL without the last element
+        const topic = nextQuestionLink.getAttribute('data-topic');
+        const level = nextQuestionLink.getAttribute('data-level');
+        const questionIndex = parseInt(nextQuestionLink.getAttribute('data-question-index'));
+
+        // Construct the URL using url_for
+        const url = "{{ url_for('quiz', topic='', level='', question_index=0) }}";
+        const nextURL = url.replace('topic=', `topic=${encodeURIComponent(topic)}`)
+                           .replace('level=', `level=${encodeURIComponent(level)}`)
+                           .replace('question_index=0', `question_index=${questionIndex}`);
+
+        // Redirect to the next question
+        window.location.href = nextURL;
+
+    });
+</script>
+</body>
+</html>
